@@ -1,0 +1,273 @@
+body{
+    background-color: whitesmoke;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fullwidth{
+    width: 100%;
+}
+.fullheight{
+    height: 100%;
+}
+.dancingfont{
+    font-family: "Dancing Script", system-ui;
+}
+.roboto{
+    font-family: "Roboto", system-ui;
+}
+.cursive{
+    font-family: "Great Vibes", cursive;
+}
+.updock{
+    font-family: "Updock", cursive;
+}
+.kanit{
+    font-family: "Kanit", system-ui;
+}
+.sacramento{
+    font-family: "Sacramento", system-ui;
+}
+.space{
+    margin-left: 1.5rem;
+}
+.mediumspace{
+    margin-left: 8.5rem;
+}
+.morespace{
+    margin-left: 16rem;
+}
+.white{
+    color: white;
+}
+.dot{
+    color: rgba(254, 253, 253, 0);
+}
+.upper{
+    z-index: 1;
+}
+.lower{
+    z-index: -1;
+}
+.ltrsp{
+    /* letterspace */
+    letter-spacing: 2px;
+}
+.linehgtsm{
+    line-height: 0.2;
+}
+.linehgt{
+    line-height: .5;
+}
+.fontbig{
+    font-size: 3rem;
+}
+.fontbig-1{
+    font-size: 4rem;
+}
+.fontbig-2{
+    font-size: 5rem;
+}
+.gold{
+    color: #Ffd700;
+}
+.navbar-nav .nav-link:hover,.dropdown-menu .dropdown-item:hover{
+    color: rgb(205, 192, 88) !important;
+}
+#section1{
+    position: relative;
+    width: 100%;
+    background-image: url('./images/bg1.png');
+    background-size: cover;
+        /* Ensures the image covers the entire section */
+    background-position: center;
+        /* Centers the background image */
+    background-repeat: no-repeat;
+        /* Prevents the image from repeating */
+    height: 100vh;
+        /* Sets the section height to 100% of the viewport height */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abtbtn{
+    text-decoration: none;
+    color: black;
+}
+#section2{
+    padding: 5rem 0rem;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+.sectlink{
+    text-decoration: none;
+}
+.sectlink:hover{
+    text-decoration: underline;
+}
+#section3{
+    padding: 5rem 0rem;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+#section4{
+    padding-top: 5rem;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+.aboutus{
+    background-color: rgb(25, 21, 21);
+    width: 100%;
+    height: auto;
+}
+.social-icon {
+    font-size: 1.5rem;
+}
+#newsa{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+#newsa:hover{
+    color: #Ffd700;
+}
+.social-icon:hover{
+    color: #Ffd700;
+}
+.footer {
+    background-color: rgb(39, 37, 37);
+    width: 100%;
+    height: auto;
+}
+
+.triangle{
+    background-color: rgb(25, 21, 21);
+}
+.up-arrow{
+    text-decoration: none;
+    color: whitesmoke;
+    width: 100px;
+    height: 70px;
+    background-color: rgb(39, 37, 37);
+    clip-path: polygon(50% 40%, 100% 100%, 0% 100%);
+    position: relative;
+    z-index: 1;
+    bottom:-5px;
+}
+.arrow:hover{
+    color: #Ffd700;
+}
+
+@media(max-width:1450px){
+        .logo {
+            font-size: 2rem;
+        }
+    
+        .navbar a {
+            font-size: 2rem;
+        }
+}
+@media(max-width:1300px){
+    #header{
+        padding: 1.3rem 5%;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .navbar a{
+        font-size: 1rem;
+    }
+}
+@media(max-width:1200px){
+    .strypic2 {
+            display: none;
+    } 
+    .menuimg{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+    } 
+}
+@media(max-width:1100px) {
+    #header {
+        padding: 1.3rem 2.5%;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .navbar a {
+        font-size: .5rem;
+    }
+}
+
+@media(max-width:991px){
+    .homecontent{
+        margin-top: 15rem;
+    }
+    .strypic1,.strypic2{
+        display: none;
+    }
+    .recipeimg{
+        margin-top: 1rem;
+    }
+    .menuimg{
+        display: none;
+    }
+    .follow{
+        font-size: 1rem;
+    }
+    .newsletter{
+        margin-top: 1.5rem;
+    }
+    .footer h4 {
+        font-size: 1.2rem; /* Adjust the size for smaller screens */
+    }
+    .footer p {
+        font-size: 0.9rem; /* Reduce paragraph font size */
+    }
+    .footer .copyright {
+        font-size: 0.8rem; /* Optional: Adjust copyright text size */
+    }
+
+}
+
+@media (min-width: 768px) {
+    .social-icon {
+            font-size: 2.5rem;
+        /* Font size for medium and larger screens */
+    }
+}
+
+@media(max-width:600px){
+    #section1>div h1{
+        font-size: 3rem;
+    }
+    #section1>div h2{
+        font-size: 2rem;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .logosize{
+        width: 80px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
